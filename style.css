@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+* {
+    margin : 0   ; 
+    padding :  0    ; 
+    box-sizing: border-box  ;
+    font-family: 'Roboto',   sans-serif  ; 
+    color : #ffff; 
+      
+
+
+
+}
+body  {
+    position : relative  ;  
+    overflow : hidden ; 
+    display  : flex   ; 
+    justify-content: center;  
+    align-items: center ;
+    min-height : 100vh  ; 
+     /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=a60299&c2=b97606&gt=l&gd=dbr
+*/
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=51237b&c2=ac2977&gt=l&gd=dbr
+*/
+background: #51237B;
+background: linear-gradient(315deg, #51237B, #AC2977);
+    
+} 
+
+.container {
+    position :  absolute   ; 
+    width  : 10% ; 
+    height    : 100% ; 
+    display : flex  ; 
+    justify-content: center ; 
+    align-items: center   ;  
+
+}
+
+h2 {
+    color   : #ffff   ;
+    text-align: center ; 
+    font-size : 4vw  ; 
+    line-height: 1em   ;  
+    z-index:  1000  ; 
+    font-weight : 900  ; 
+
+
+
+}
+
+
+.block    {
+    position : absolute    ; 
+    width  : 50px  ;  
+    height  : 100px  ; 
+    background  : rgb(211, 198, 202)   ; 
+    box-shadow  : 10px  10px 50px  rgba()   ; 
+    
+
+
+}
